@@ -1,0 +1,57 @@
+--- Folder Structure ---
+.air.toml
+.env
+Makefile
+README.md
+[bin]
+    └── app
+[cmd]
+    └── [app]
+        └── main.go
+[docs]
+    ├── .project_structure_filter
+    ├── .project_structure_ignore
+    └── project_structure_filtered.txt
+go.mod
+go.sum
+[handlers]
+    ├── home.go
+    ├── login.go
+    ├── [public]
+        └── styles.css
+    ├── shared.go
+    ├── signin.go
+    ├── static_dev.go
+    └── static_prod.go
+[middleware]
+    ├── authentication.go
+    └── store.go
+package-lock.json
+package.json
+[public]
+    └── styles.css
+[routes]
+    └── routes.go
+tailwind.config.js
+[tmp]
+    ├── build-errors.log
+    └── main
+[types]
+    └── types.go
+[views]
+    ├── [auth]
+        ├── login.templ
+        ├── login_templ.go
+        └── login_templ.txt
+    ├── [css]
+        └── app.css
+    ├── [home]
+        ├── index.templ
+        ├── index_templ.go
+        └── index_templ.txt
+    └── [layouts]
+        ├── base.templ
+        ├── base_templ.go
+        └── base_templ.txt
+
+--- File Contents ---
